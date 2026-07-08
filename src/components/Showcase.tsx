@@ -43,7 +43,9 @@ const certificates = [
     thumbnail: "/assets/certificate.png",
     pdf: "https://www.theforage.com/completion-certificates/ifobHAoMjQs9s6bKS/gMTdCXwDdLYoXZ3wG_ifobHAoMjQs9s6bKS_TNGetcap2GbMfKo8Q_1782134862475_completion_certificate.pdf",
   },
-  // add when needed { title: "upcoming", tech: "#", thumbnail: "#" },
+  { title: "C++",
+    pdf: "https://media.geeksforgeeks.org/courses/certificates/0d9fc7756542f2804f8f3f5ec913fcd4.pdf",
+    thumbnail: "/assets/c++.png" },
 ];
 
 const GithubIcon = () => (
@@ -574,3 +576,4 @@ export default function ShowcaseSection() {
     </section>
   );
 }
+
